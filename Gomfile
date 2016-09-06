@@ -1,0 +1,7 @@
+gom 'github.com/Sirupsen/logrus', :commit => '07d998d174c4e2dc90e2f1989a20724220bca1ff'
+gom 'github.com/hashicorp/serf', :commit => '9432bc08aa8d486e497e27f84878ebbe8c1eab6'
+
+group :test do
+  gom 'github.com/stretchr/testify/assert'
+end
+
